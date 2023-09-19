@@ -1,67 +1,81 @@
 body{
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
+    background-color: #141B44;;
 
 }
 
-.header{
-    width: auto;
-    height: 60px;
-    background-color: #879F40;
-    margin: 0;
-}
-
-.nav{
-    width: 60x;
-    height: 100px;
+header{
+    align-items: center;
     display: flex;
 }
-.logo{
-    width: 60px;
+
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    text-align: left;
+    position: absolute;
+    right: 0;
 
 }
 
-header a{
-    color: blanchedalmond;
+.nav li{
+    margin-right: 43px;
+}
+
+.nav li a{
+    color: #AEAEAE;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-decoration: none;
 }
 
-.menu{
-    display: flex;
-    list-style-type: none;
+.myname{
+    color: #AEAEAE;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 70px;
+    margin-top: 40px;
 }
 
-.menu li{
-    margin-right: 40px;
-    margin-left: 0;
-    font-size: 25px;
+.sname{
+    margin-left: 44px;
 }
 
-.cont{
-    margin-left: auto;
-    margin-right: 30px;
-    margin-top: 16px;
-    font-size: 27px;
+.name{
+    margin-left: 409px;
 }
 
-.body{
-    width: auto;
-    height: 370px;
-    flex-shrink: 0;
-    background-color: #EFBD98;
+.moon img{
+    height: 837px;
+    position: absolute;
+    top: 186px;
 }
 
-.list{
-    width: 310px;
-    height: 370px;
-    flex-shrink: 0;
-
-    border-radius: 155px 0px;
-    background-color: #C0BE7F;
+.moon{
+    top: 0px;
 }
 
-.list h1{
-    margin: 0;
+header h1{
+    margin-top: 35px;
+    margin-bottom: 38px;
+}
+
+.hitext{
+    color: #AEAEAE;
     text-align: center;
-    line-height: 155px;
+    font-family: JetBrains Mono;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 832px;
+    height: 262px;
+    margin-left: 700px;
+
 }
