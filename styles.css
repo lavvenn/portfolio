@@ -33,8 +33,13 @@ header{
     text-decoration: none;
 }
 
+.nav li a:hover{
+    color: #745e00;
+    text-decoration:underline;
+}
+
 .myname{
-    color: #AEAEAE;
+    color: #745e00;
     font-size: 50px;
     font-style: normal;
     font-weight: 200;
