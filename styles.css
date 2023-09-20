@@ -1,7 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
-    background-color: #141B44;;
+    background-color: #141B44;
+
 
 }
 
@@ -84,3 +89,91 @@ header h1{
     margin-left: 700px;
 
 }
+
+.mars img{
+    position: absolute;
+    top: 1023px;
+    left: 500px;
+}
+
+.abm{
+    position: absolute;
+    top: 1958px;
+    color: #AEAEAE;
+    font-size: 44px;
+    text-align: center;
+    
+}
+
+.myprojects img{
+    position: absolute;
+    top: 2893px;
+    right: 0px;
+}
+
+.mygithub p{
+    position: absolute;
+    top: 3004px;
+    color: #AEAEAE;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 979px;
+    height: 712px;
+}
+
+.mygithub img{
+    position: absolute;
+    top: 3205px;
+    right: 620px;
+}
+
+.sun img{
+    position: absolute;
+    top: 4756px;
+}
+
+.tg{
+    width: 321px;
+    height: 321px;
+
+    position: absolute;
+    top: 4199px;
+    right: 0;
+}
+
+.gmail{
+    width: 321px;
+    height: 321px;
+
+    position: absolute;
+    top: 4199px;
+    left: 0;
+
+}
+
+.connection p{
+    width: 957px;
+    height: 302px;
+
+    color: #AEAEAE;
+    font-family: JetBrains Mono;
+    font-size: 75px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: absolute;
+    top: 3897px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 500px;
+
+
+}
+
