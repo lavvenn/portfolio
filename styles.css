@@ -22,6 +22,7 @@ header{
     text-align: left;
     position: absolute;
     right: 0;
+    margin-right: 0;
 
 }
 
@@ -108,7 +109,8 @@ header h1{
 .myprojects img{
     position: absolute;
     top: 2893px;
-    right: 0px;
+    right: 0;
+
 }
 
 .mygithub p{
@@ -132,10 +134,6 @@ header h1{
     right: 620px;
 }
 
-.sun img{
-    position: absolute;
-    top: 4756px;
-}
 
 .tg{
     width: 321px;
